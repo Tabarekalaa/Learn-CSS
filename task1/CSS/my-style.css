@@ -1,0 +1,68 @@
+
+/* vaild */
+._my-div{
+    color: blue;
+    border: brown;
+    border-style: solid;
+}
+
+
+/* vaild */
+.-my-div{
+    color: blue;
+    border: brown;
+    border-style: solid;
+}
+
+
+/*Not vaild */
+.12my-div{
+    color: blue;
+    border: brown;
+    border-style: solid;
+}
+
+
+/*Not vaild */
+.% my-div{
+    color: blue;
+    border: brown;
+    border-style: solid;
+}
+
+
+/*Not vaild */
+.@my-div{
+    color: blue;
+    border: brown;
+    border-style: solid;
+}
+
+
+/*Not vaild */
+.my @div{
+    color: blue;
+    border: brown;
+    border-style: solid;
+}
+
+
+
+/* vaild */
+._my78div{
+    color: blue;
+    border: brown;
+    border-style: solid;
+}
+
+
+
+/* vaild */
+.-div{
+    color: blue;
+    border: brown;
+    border-style: solid;
+}
+
+
+
