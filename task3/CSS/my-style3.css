@@ -1,0 +1,54 @@
+.my-div1,
+.my-div2,
+.my-div3,
+.my-div4{
+    width: 400px;
+    height: 400px;
+    background-image: url(../11.jfif);
+}
+
+
+/* The background does not repeat */
+
+.my-div1{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+/* The background repeat for right */ 
+
+.my-div2{
+   
+    background-repeat: repeat-y;
+    background-size: contain;
+    background-position: right;
+}
+
+
+
+/* The background repeat for bottom */
+.my-div3{
+   
+    background-repeat: repeat-x;
+    background-size: contain;
+    background-position: bottom;
+    
+}
+
+
+
+
+
+
+/* The background repeat for bottom & right */
+.my-div4{
+   
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-size: contain;
+    
+    
+}
