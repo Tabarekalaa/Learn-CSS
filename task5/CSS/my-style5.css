@@ -1,0 +1,38 @@
+div p{
+    width: 200px;
+    height: 200px;
+}
+.my-p1,
+.my-p2,
+.my-p3{
+    display:inline-block;
+    margin: 20px 10px 10px 10px;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+.my-p1{
+    border: 5px solid red;
+}
+
+.my-p2{
+    border-right: dotted 7px;
+    border-left:dashed 7px ;
+    border-color: red;
+    background-color: rgb(94, 9, 94) ;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.my-p3{
+    border-bottom: groove 7px;
+    border-top:dashed 7px ;
+    border-color: red;
+    background-color: rgb(197, 179, 197) ;
+    color: rgb(255, 255, 255);
+}
