@@ -1,0 +1,507 @@
+*{
+    font-family:'Roboto Mono';
+    font-size: 14px;
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+/* start header */
+
+.header {
+    background-color: rgba(0, 0, 0, 0.151);
+    position: relative;
+    height: 49px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 14px;
+}
+
+.header .information{
+    position: absolute;
+    margin-right: 70px;
+    margin-top: -24px;
+    padding-right: 10px;
+    right: 0px;
+}
+
+
+.header .information p{
+    font-size: 14px;
+}
+
+.header .information .social-1 ul li {
+    display: inline-block;
+    font-size: 14px !important;
+    padding: 30px;
+    right: 1062px;
+    top: 10px;
+    position: relative;
+}
+
+
+.header .information .social-2 ul li {
+    display: inline-block;
+    font-size: 14px !important;
+    padding: 22px;
+    right: -214px;
+    top: -57px;
+    position: relative;
+}
+/* end header */
+
+/* -------------------------------------------------------- */
+
+/* start navbar */
+
+.navbar .word {
+    color: indianred;
+    margin-left: 61px;
+    font-size: 29px;
+    margin-top: 16px;
+}
+
+.navbar .word .i{
+    color:lightseagreen;
+    font-size: 29px;
+}
+
+.navbar .word .a{
+    color:rgb(241, 170, 89);
+    font-size: 29px;
+}
+
+
+.navbar .tools{
+    color: #000;
+    position: relative;
+}
+
+.navbar .tools ul li {
+    display: inline-block;
+    padding: 22px;
+    font-weight: bold;
+    left: 812px;
+    top: -43px;
+    position: relative;
+}
+
+.header .information .social-2 a:hover{
+   color: brown;
+}
+
+.navbar .login {
+    margin-top: -99px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border-radius: 14px;
+    width: 40px;
+    height: 10px;
+    border: 3px solid #da6d6d;
+    padding-left: 35px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 18px;
+    right: -1348px;
+    font-weight: bold;
+}
+
+/* .navbar .login:hover{
+    background-color: maroon;
+} */
+
+/* end navbar */
+
+/* -------------------------------------------------------- */
+
+/* start section */
+.our-text{
+    position: relative;
+}
+
+
+.our-text .text-1 {
+    color: #da6d6d;
+    font-size: 45px;
+    margin-top: 208px;
+    margin-left: 249px;
+    position: absolute;
+}
+
+.our-text .text-2 {
+    font-size: 17px;
+    position: absolute;
+    margin-left: 61px;
+    width: 634px;
+    margin-top: 280px;
+    font-family: 'Luxurious Roman', cursive;
+}
+
+.our-text .text-3 {
+    position: absolute;
+    margin-top: 389px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 24px;
+    left: 61px;
+    width: 66px;
+    height: 10px;
+    border: 3px solid #da6d6d;
+    padding-left: 35px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 18px;
+    right: 1305px;
+    font-weight: bold;
+}
+
+.our-text .text-3:hover{
+    background-color: #da6d6d;
+}
+
+.our-text .text-4 {
+    color: #da6d6d;
+    font-size: 45px;
+    margin-top: 561px;
+    margin-left: 925px;
+    position: absolute;
+}
+
+.our-text .text-5 {
+    font-size: 17px;
+    position: absolute;
+    margin-left: 927px;
+    width: 506px;
+    margin-top: 635px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.our-text .text-6 {
+    margin-left: 672px;
+    top: 890px;
+    font-size: 48px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.our-text .text-7 {
+    margin-left: 729px;
+    top: 957px;
+    font-size: 20px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* ------------------------------------------------ */
+
+
+.our-picture{
+    position: relative;
+}
+
+.our-picture .picture-1 {
+    position: absolute;
+    right: 60px;
+    top: 50px;
+}
+
+.our-picture .picture-2 {
+    position: absolute;
+    right: 675px;
+    top: 521px;
+}
+/* end section */
+
+/* ---------------------------------------------------- */
+
+/* start footer */
+
+.background{
+    position: relative;
+}
+
+.background .background-1, .background-2, .background-3, .background-4 {
+    position: relative;
+    display: inline-block;
+    right: -370px;
+    top: 1013px;
+    margin: 22px;
+    width: 171px;
+    height: 145px;
+}
+
+
+.background .background-1{
+    background-color: rgb(255, 136, 215);
+}
+
+.background .background-2{
+    background-color: rgb(204, 63, 157);
+}
+
+.background .background-3{
+    background-color: rgb(190, 34, 138);
+}
+
+.background .background-4{
+    background-color: rgb(170, 2, 114);
+}
+
+.service .service-1, .service-2, .service-3, .service-4 {
+    position: relative;
+    display: inline-block;
+    right: -370px;
+    top: 921px;
+    margin: 22px;
+    font-size: 20px;
+    width: 171px;
+    font-weight: bold;
+    height: 145px;
+    text-align: center;
+}
+
+
+.four-photo .photo1, .photo2, .photo3, .photo4 {
+    position: relative;
+    display: inline-block;
+    right: -404px;
+    top: 630px;
+    margin: 32px;
+    border-radius: 10px;
+    z-index: 3;
+    width: 150px !important;
+    height: 100px !important;
+}
+/* --------------------------------------------------- */
+
+.Project{
+    position: relative;
+}
+
+
+.Project .task-bar1, .task-bar2, .task-bar3, .task-bar4 {
+    width: 718px;
+    height: 40px;
+    text-align: center;
+    margin: 23px;
+    padding-top: 20px;
+    margin-left: 441px;
+    top: 713px;
+    position: relative;
+    border-radius: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.task-bar1 , .task-bar3{
+    background-color: rgb(139, 208, 248);
+}
+
+.task-bar2, .task-bar4{
+    background-color: mediumvioletred;
+}
+
+
+.photo-bar .v1{
+    top: 383px;
+    position: relative;
+    right: -1099px;
+    
+}
+
+
+.photo-bar .v2{
+    top: 550px;
+    position: relative;
+    right: -1041px;
+    
+}
+
+.photo-bar .v3{
+    top: 467px;
+    position: relative;
+    right: -328px;
+}
+
+.photo-bar .v4 {
+    top: 632px;
+    position: relative;
+    right: -270px;
+}
+
+
+.photo-bar .t1 {
+    width: 75px;
+    height: 34px;
+    background-color: rgb(209 208 208);
+    left: 445PX;
+    top: 326PX;
+    position: relative;
+    border-radius: 5px;
+   
+    padding-top: 19px;
+    
+}
+
+.t1 p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 31px;
+    color: #d38b06;
+    top: 9px;
+    position: absolute;
+    z-index: 4;
+    left: 30px;
+}
+
+.photo-bar .t2{
+    width: 75px;
+    height: 34px;
+    background-color:  rgb(139, 208, 248);
+    left: 1077PX;
+    top: 355PX;
+    position: relative;
+    border-radius: 5px;
+    padding-top: 19px;
+}
+
+.t2 p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 31px;
+    color: #a00000;
+    top: 9px;
+    position: absolute;
+    z-index: 4;
+    left: 30px;
+}
+
+.photo-bar .t3 {
+    width: 75px;
+    height: 34px;
+    background-color: rgb(209 208 208);
+    left: 445PX;
+    top: 386PX;
+    position: relative;
+    border-radius: 5px;
+    padding-top: 19px;
+}
+
+.t3 p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 31px;
+    color: #d38b06;
+    top: 9px;
+    position: absolute;
+    z-index: 4;
+    left: 30px;
+}
+
+.photo-bar .t4 {
+    width: 75px;
+    height: 34px;
+    background-color: rgb(139, 208, 248);
+    left: 1078PX;
+    top: 415PX;
+    position: relative;
+    border-radius: 5px;
+    padding-top: 19px;
+}
+
+.t4 p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 31px;
+    color: #a00000;
+    top: 9px;
+    position: absolute;
+    z-index: 4;
+    left: 30px;
+}
+
+
+
+.photo-bar .r1 {
+    border: 40px solid;
+    border-color: rgba(0, 0, 0, 0) rgb(209 208 208) rgba(205, 92, 92, 0) rgba(240, 255, 240, 0);
+    width: 67px;
+    height: 2px;
+    border-radius: 5px;
+    margin-left: 314PX;
+    margin-top:99px;
+    z-index: 3;
+    position: absolute;
+}
+
+.photo-bar .r2 {
+    border: 40px solid;
+    border-color: rgba(0, 0, 0, 0) rgb(209 208 208) rgba(205, 92, 92, 0) rgba(240, 255, 240, 0);
+    width: 67px;
+    height: 2px;
+    border-radius: 5px;
+    margin-left: 314PX;
+    margin-top: 265px;
+    z-index: 3;
+    position: absolute;
+}
+
+.photo-bar .r3 {
+    border: 40px solid;
+    border-color: rgba(0, 0, 0, 0) rgb(209 208 208 / 0%) rgba(205, 92, 92, 0)  rgb(139, 208, 248);
+    width: 67px;
+    height: 2px;
+    border-radius: 5px;
+    margin-left: 1138PX;
+    margin-top: 183px;
+    z-index: 3;
+    position: absolute;
+}
+
+.photo-bar .r4 {
+    border: 40px solid;
+    border-color: rgba(0, 0, 0, 0) rgb(209 208 208 / 0%) rgba(205, 92, 92, 0)  rgb(139, 208, 248);
+    width: 67px;
+    height: 2px;
+    border-radius: 5px;
+    margin-left: 1139PX;
+    margin-top: 347px;
+    z-index: 3;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end footer */
